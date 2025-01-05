@@ -854,3 +854,33 @@
 #  - type: AlwaysRevolutionaryConvertible
   - type: StealTarget
     stealGroup: AnimalTropico
+
+- type: entity
+  name: Melba
+  parent: MobCorgi
+  id: MobCorgiMelba
+  description: MELBA !! MELBA !!
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: Mobs/Pets/corgi.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: melba
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: melba
+      #Critical:
+      #  Base: ian_dead
+      #Dead:
+      #  Base: ian_dead
+  - type: Grammar
+    attributes:
+      proper: true
+      gender: female
+  - type: Butcherable
+    spawned:
+    - id: FoodMeatCorgi
+      amount: 2
+    - id: MaterialHideCorgi
