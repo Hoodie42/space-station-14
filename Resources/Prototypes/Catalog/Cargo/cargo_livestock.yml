@@ -69,6 +69,16 @@
   group: market
 
 - type: cargoProduct
+  id: LivestockMelba
+  icon:
+    sprite: Mobs/Pets/corgi.rsi
+    state: melba
+  product: CrateNPCMelba
+  cost: 1200
+  category: cargoproduct-category-name-livestock
+  group: market
+
+- type: cargoProduct
   id: LivestockPupCorgi
   icon:
     sprite: Mobs/Pets/corgi.rsi

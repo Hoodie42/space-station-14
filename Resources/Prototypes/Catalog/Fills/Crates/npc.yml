@@ -92,6 +92,16 @@
       - id: MobCorgi
 
 - type: entity
+  id: CrateNPCMelba
+  parent: CrateLivestock
+  name: melba crate
+  description: A crate containing Melba.
+  components:
+  - type: StorageFill
+    contents:
+      - id: MobCorgiMelba
+
+- type: entity
   id: CrateNPCPuppyCorgi
   parent: CrateLivestock
   name: puppy corgi crate
