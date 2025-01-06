@@ -859,7 +859,7 @@
   name: Melba
   parent: MobCorgi
   id: MobCorgiMelba
-  description: MELBA !! MELBA !!
+  description: The best dog.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -881,6 +881,5 @@
       gender: female
   - type: Butcherable
     spawned:
-    - id: FoodMeatCorgi
+    - id: FoodMeat
       amount: 2
-    - id: MaterialHideCorgi
