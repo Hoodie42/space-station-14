@@ -871,10 +871,10 @@
     states:
       Alive:
         Base: melba
-      #Critical:
-      #  Base: ian_dead
-      #Dead:
-      #  Base: ian_dead
+      Critical:
+       Base: melba_dead
+      Dead:
+       Base: melba_dead
   - type: Grammar
     attributes:
       proper: true
