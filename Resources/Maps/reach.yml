@@ -1298,6 +1298,7 @@ entities:
     - type: GasTileOverlay
     - type: RadiationGridResistance
     - type: SpreaderGrid
+    - type: NavMap
 - proto: AirAlarm
   entities:
   - uid: 3
@@ -3852,6 +3853,26 @@ entities:
     components:
     - type: Transform
       pos: -4.5,10.5
+      parent: 2
+  - uid: 2502
+    components:
+    - type: Transform
+      pos: 23.5,-2.5
+      parent: 2
+  - uid: 2503
+    components:
+    - type: Transform
+      pos: 24.5,-2.5
+      parent: 2
+  - uid: 2504
+    components:
+    - type: Transform
+      pos: 25.5,-2.5
+      parent: 2
+  - uid: 2505
+    components:
+    - type: Transform
+      pos: 26.5,-2.5
       parent: 2
 - proto: CableHV
   entities:
@@ -11901,6 +11922,13 @@ entities:
     components:
     - type: Transform
       pos: 4.5,13.5
+      parent: 2
+- proto: PlayerStationAi
+  entities:
+  - uid: 2501
+    components:
+    - type: Transform
+      pos: 27.5,-2.5
       parent: 2
 - proto: Plunger
   entities:
