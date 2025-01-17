@@ -49,6 +49,19 @@
       - MobCorgiIanPup
 
 - type: entity
+  name: Melba Spawner
+  id: SpawnMobMelba
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: green
+      - state: ai
+  - type: ConditionalSpawner
+    prototypes:
+      - MobCorgiMelba
+
+- type: entity
   name: Dev Mouse Spawner
   id: SpawnMobCorgiMouse
   suffix: Admeme
