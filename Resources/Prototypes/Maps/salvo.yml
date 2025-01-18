@@ -16,5 +16,6 @@
           emergencyShuttlePath: /Maps/Shuttles/emergency.yml
         - type: StationJobs
           availableJobs:
+            Captain: [ 1, 1 ]
             SalvageSpecialist: [ -1, -1 ]
 
