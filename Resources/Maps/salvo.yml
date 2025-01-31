@@ -268,29 +268,29 @@ entities:
       parent: 2
 - proto: AirlockExternalGlassShuttleArrivals
   entities:
+  - uid: 130
+    components:
+    - type: Transform
+      pos: 8.5,-5.5
+      parent: 2
   - uid: 147
     components:
     - type: Transform
       pos: 15.5,-5.5
       parent: 2
+- proto: AirlockExternalGlassShuttleEmergencyLocked
+  entities:
   - uid: 159
     components:
     - type: Transform
-      pos: 8.5,-5.5
-      parent: 2
-- proto: AirlockExternalGlassShuttleEscape
-  entities:
-  - uid: 130
-    components:
-    - type: Transform
       rot: 3.141592653589793 rad
-      pos: 8.5,4.5
+      pos: 14.5,4.5
       parent: 2
   - uid: 162
     components:
     - type: Transform
       rot: 3.141592653589793 rad
-      pos: 14.5,4.5
+      pos: 6.5,4.5
       parent: 2
   - uid: 163
     components:
@@ -302,7 +302,7 @@ entities:
     components:
     - type: Transform
       rot: 3.141592653589793 rad
-      pos: 6.5,4.5
+      pos: 8.5,4.5
       parent: 2
 - proto: AirlockGlass
   entities:
